@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\APIAutentication\\APIAutentication.csproj": {}
+    "C:\\Projetos\\APIAuthentication\\APIAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\APIAutentication\\APIAutentication.csproj": {
+    "C:\\Projetos\\APIAuthentication\\APIAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\APIAutentication\\APIAutentication.csproj",
-        "projectName": "APIAutentication",
-        "projectPath": "C:\\Projetos\\APIAutentication\\APIAutentication.csproj",
+        "projectUniqueName": "C:\\Projetos\\APIAuthentication\\APIAuthentication.csproj",
+        "projectName": "APIAuthentication",
+        "projectPath": "C:\\Projetos\\APIAuthentication\\APIAuthentication.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\APIAutentication\\obj\\",
+        "outputPath": "C:\\Projetos\\APIAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

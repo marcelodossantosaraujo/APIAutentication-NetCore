@@ -1,6 +1,6 @@
 using System;
 
-namespace APIAutentication.Models
+namespace APIAuthentication.Models
 {
     public class ErrorViewModel
     {
