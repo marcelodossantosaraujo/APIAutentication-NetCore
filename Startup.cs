@@ -24,6 +24,10 @@ namespace APIAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddAuthentication( x => 
+            {
+                //  x.DefaultAuthenticateScheme = JwtBearerDefaults
+                 });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +45,9 @@ namespace APIAuthentication
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseRouting();
 
